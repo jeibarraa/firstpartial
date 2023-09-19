@@ -1,0 +1,77 @@
+Function machine 
+
+def f(x):
+  f_x=-x/3-10
+  return f_x
+
+y=f(10)
+
+print(y)
+
+
+Fahrenheit to celsius 
+def celsius_to_fahrenheit (celcius):
+  fahrenheit=(celcius*9/5)+32
+  return fahrenheit
+
+def celsius_to_kelvin(celsius):
+  kelvin=celsius+273.15
+  return kelvin
+
+celsius_str=input("Enter temperature in Celcius:")
+celsius=int(celsius_str)
+
+fahrenheit=celsius_to_fahrenheit (celsius)
+kelvin=celsius_to_kelvin(celsius)
+
+result=f"{celsius}°C is equal to {fahrenheit:.2f}°F\n{celsius}°C is equal to {kelvin:.2f} K"
+
+print(result)
+
+Hello World 
+print("Hello, World!")
+
+2 exam reviews 
+
+#Function 1
+def name():
+  print("¿Can you tell me the height of your rectangle?")
+  height=input()
+  print("tell me the wide of your rectangle?")
+  wide=input()
+  area=int(height)*int(wide)
+  print("the rectangle has an area of:",area)
+  #Function 2
+name()
+
+
+
+
+
+#Function 1
+def name():
+  print("¿Can you tell me the price of the hamburger?")
+  hamburger=input()
+  print("what is the discount?")
+  discount=input()
+  price=100-int(discount)
+  total=(int(hamburger)/100)*price
+  print("the total price would be of:", total)
+
+#Function 2
+name()
+
+
+Exam
+#Function 1
+def name():
+  print("What is the price of the robot")
+  robot=input()
+  print("what is the discount")
+  discount=input()
+  price=100-int(discount)
+  Total=(int(robot)/100)*price
+  print("the final price would be:",Total)
+
+#Function 2
+name() 
